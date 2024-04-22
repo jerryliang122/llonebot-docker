@@ -1,4 +1,4 @@
-name: ci
+name: vnc-docker-publish
 
 on:
   workflow_dispatch:

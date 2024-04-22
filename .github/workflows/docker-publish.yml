@@ -1,4 +1,4 @@
-name: ci
+name: api-docker-publish
 
 on:
   workflow_dispatch:
