@@ -1,13 +1,13 @@
 version: '3'
 services:
   llonebot-docker:
-    image: mlikiowa/llonebot-docker:vnc
+    image: ghcr.jerryliang.win/jerryliang122/llonebot-docker:latest
     tty: true
     container_name: llonebot-docker
     restart: always
     ports:
-      - "5900:5900"
-      - "3000:3000"    
+      - "6099:6099"
+      - "3000:3000"
       - "3001:3001"
     # - "3001:3001" 留给反向
     environment:
@@ -16,4 +16,3 @@ services:
     volumes:
       - ./LiteLoader/:/opt/QQ/resources/app/LiteLoader
       # 未固化QQ数据 当前仅固化LiteLoader
-    network_mode: host
