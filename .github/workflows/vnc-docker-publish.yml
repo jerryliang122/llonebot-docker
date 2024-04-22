@@ -7,8 +7,7 @@ on:
   #     - "main"
 
 env:
-  APP_NAME: kook
-  DOCKERHUB_REPO: jerryliang/kook
+  DOCKERHUB_REPO: jerryliang122/llonebot-docker
   registry: ghcr.io
 jobs:
   main:
